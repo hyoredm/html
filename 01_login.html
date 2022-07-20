@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<!--    폰트 가져오기-->
+    <style>
+        *{
+            font-family: 'Nanum Pen Script', cursive;
+            /*폰트가져오기*/
+        }
+        .mytitle {
+            background-color: green;
+            /*배경 색상*/
+
+            width: 300px;
+            /*배경 너비*/
+            height: 200px;
+            /*배경 높이*/
+
+            color: white;
+            /*폰트색깔*/
+            text-align: center;
+            /*폰트 중앙 정렬*/
+
+            background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+            background-size: cover;
+            background-position: center;
+            /*배경에 이미지 넣기, 위 3줄은 세트*/
+
+            border-radius: 10px;
+            /*배경 둥글게*/
+            padding-top: 20px;
+            /*윗쪽으로 여백*/
+        }
+
+        .wrap {
+            width: 300px;
+            margin: auto;
+        }
+
+        .mybtn {
+            width: 100px;
+            margin: auto;
+            /*양쪽 여백 똑같이*/
+            display: block;
+            /*움직이지 않을때 사용*/
+        }
+
+        .red-font {
+            color: red;
+            font-size: 36px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="mytitle">
+            <h1>로그인 페이지</h1>
+            <h5>아이디, 패스워드를 입력해주세요</h5>
+        </div>
+        <p>ID: <input type="text" /></p>
+        <p>PW: <input type="text" /></p>
+        <button class="mybtn red-font">로그인하기</button>
+    </div>
+</body>
+</html>
